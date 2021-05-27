@@ -1,0 +1,2 @@
+﻿stay-a-while.obj : error LNK2019: unresolved external symbol "public: bool __cdecl UserInterface::sign_in(void)" (?sign_in@UserInterface@@QEAA_NXZ) referenced in function main
+C:\Users\Jacob\Documents\Repositories\Personal\stay-a-while\x64\Debug\stay-a-while.exe : fatal error LNK1120: 1 unresolved externals

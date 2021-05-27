@@ -139,7 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="console.cpp" />
+    <ClCompile Include="decryption.cpp" />
+    <ClCompile Include="encryption.cpp" />
+    <ClCompile Include="extractor.cpp" />
     <ClCompile Include="stay-a-while.cpp" />
+    <ClCompile Include="user_interface.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="console.h" />
+    <ClInclude Include="decryption.h" />
+    <ClInclude Include="encryption.h" />
+    <ClInclude Include="extractor.h" />
+    <ClInclude Include="user_interface.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="login_credentials.txt" />
+    <Text Include="stored_credentials.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
